@@ -20,22 +20,37 @@ Password Used:bandit0
         
         	Level o-1
 
-Directions:
+Directions:find the password for lv 2 in the readme file, found in the home directory 
 
-Command: 
+Commands: ls - gave  readme
 
-Password Used: 
+cat readme - gives pass
+
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+Password Used: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+
+
+Enjoy your stay ! bandit1 and pass worked
 
 --------------------------------
 
 			Level 1-2
 
-Directions:
+Directions: while loggin in as bandit1 find pass in file called - which is in home directory.
 
 Command: 
 
 Password Used:
 
+
+google refrence on use of - 
+
+What is dashed filename?
+Usage of dash (-) in place of a filename
+
+For a command, if using - as an argument in place of a file name will mean STDIN or STDOUT
 --------------------------------
 
 			Level 2-3
