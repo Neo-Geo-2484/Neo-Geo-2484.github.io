@@ -4,13 +4,16 @@ title: Week 3 OTW Homework
 published: true
 ---
 
+Reference : https://overthewire.org/wargames/bandit/
 
 
 			Level 0	
             
-Directions:
+Directions:Log in using SSH on port 2220 username bandit0, 
 
-Password Used:
+Command: ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+Password Used:bandit0
 
 ---------------------------------
         
@@ -18,6 +21,8 @@ Password Used:
         	Level o-1
 
 Directions:
+
+Command: 
 
 Password Used: 
 
@@ -27,6 +32,8 @@ Password Used:
 
 Directions:
 
+Command: 
+
 Password Used:
 
 --------------------------------
@@ -34,6 +41,8 @@ Password Used:
 			Level 2-3
 
 Directions:
+
+Command: 
 
 Password Used: 
 
@@ -43,6 +52,8 @@ Password Used:
 
 Directions:
 
+Command: 
+
 Password Used: 
 
 --------------------------------
@@ -50,6 +61,8 @@ Password Used:
 			Level 4-5
 
 Directions:
+
+Command: 
 
 Password Used: 
 
@@ -59,6 +72,8 @@ Password Used:
 
 Directions:
 
+Command: 
+
 Password Used: 
 
 --------------------------------
@@ -66,6 +81,8 @@ Password Used:
 			Level 6-7
 
 Directions:
+
+Command: 
 
 Password Used: 
 
@@ -76,6 +93,8 @@ Password Used:
 
 Directions:
 
+Command: 
+
 Password Used: 
 
 --------------------------------
@@ -83,6 +102,8 @@ Password Used:
 			Level 8-9
 
 Directions:
+
+Command: 
 
 Password Used: 
 
@@ -92,6 +113,8 @@ Password Used:
 
 Directions:
 
+Command: 
+
 Password Used: 
 
 --------------------------------
@@ -99,6 +122,8 @@ Password Used:
 			Level 10-11
 
 Directions:
+
+Command: 
 
 Password Used: 
 
@@ -108,6 +133,8 @@ Password Used:
 
 Directions:
 
+Command: 
+
 Password Used: 
 
 --------------------------------
@@ -115,6 +142,8 @@ Password Used:
 			Level 12-13
 
 Directions:
+
+Command: 
 
 Password Used: 
 
@@ -124,6 +153,8 @@ Password Used:
 
 Directions:
 
+Command: 
+
 Password Used: 
 
 --------------------------------
@@ -132,6 +163,8 @@ Password Used:
 
 Directions:
 
+Command: 
+
 Password Used: 
 
 --------------------------------
@@ -139,6 +172,8 @@ Password Used:
 			Level 15-16
 
 Directions:
+
+Command: 
 
 Password Used: 
 
