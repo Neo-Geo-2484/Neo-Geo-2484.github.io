@@ -38,15 +38,17 @@ Enjoy your stay ! bandit1 and pass worked
 
 			Level 1-2
 
-Directions: while loggin in as bandit1 find pass in file called - which is in home directory.
-
-Command: 
-
-Password Used:
+Directions: while loggin in as bandit1 find pass in file called - which is in home directory. cat, ls , cat - do not work.
 
 
-google refrence on use of - 
+Commands: less ./- brought up the pass below, but then I get stuck on (END) had to reopen terminal and input below creds, it works I am off to the next lv:
 
+user ssh bandit2@bandit.labs.overthewire.org -p 2220
+Password Used:CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+
+
+google Refrence:
+on use of - 
 What is dashed filename?
 Usage of dash (-) in place of a filename
 
@@ -55,11 +57,15 @@ For a command, if using - as an argument in place of a file name will mean STDIN
 
 			Level 2-3
 
-Directions:
+Directions: password for the next level is stored in a file called spaces in this filename located in the home directory
 
 Command: 
 
 Password Used: 
+
+Google Refernece:
+To to use files with spaces you can either use the escape character or youse the double quotes. \ is called escape character, used to not expansion of space, so now bash read the space as part of file name.
+
 
 --------------------------------
 
