@@ -4,7 +4,7 @@ title: '                  Week 3 OTW Bandit'
 published: true
 ---
 
-**Reference :** 
+**References:** 
 
 1) https://overthewire.org/wargames/bandit/
 
