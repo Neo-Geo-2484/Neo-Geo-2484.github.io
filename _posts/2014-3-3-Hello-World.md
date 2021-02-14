@@ -4,9 +4,10 @@ title: Week 3 OTW Homework
 published: true
 ---
 
-Reference : https://overthewire.org/wargames/bandit/
-https://www.youtube.com/watch?v=HR_0vVGtOYE
-Google.com
+Reference : 
+1) https://overthewire.org/wargames/bandit/
+2) https://www.youtube.com/watch?v=HR_0vVGtOYE
+3) Google.com
 
 
 
@@ -248,11 +249,13 @@ Password found: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
 Level 9-10:
 
-Directions:
+Directions:password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 
 Command: ls data.txt
 
-cat at
+cat ls.data.txt
+
+strings data.txt | grep '=' 
 
 Password found: 
 
