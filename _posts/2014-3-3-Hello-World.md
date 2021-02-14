@@ -6,6 +6,13 @@ published: true
 
 Reference : https://overthewire.org/wargames/bandit/
 
+Platform Used : Oracle VM Virtual Box Running Kali 
+
+
+Self assessment:
+
+This is a challenging, but fun assingment.I did my best to follow OTW directions,reasearch and use the commands tthey suggested. I did use a walkthough at times. I did get stuck a lot having to restart the terminal.I know by the end of this semester my Lunix experience will be leaps and bounds better. Just with this project I am seeing it more clearly. Prior to this class I did a breif intro to power shell and even more breif tutorial on umbntu.
+
 
 			Level 0	
             
@@ -59,9 +66,15 @@ For a command, if using - as an argument in place of a file name will mean STDIN
 
 Directions: password for the next level is stored in a file called spaces in this filename located in the home directory
 
-Command: 
+Command: ls- spaces in this filename
+\spaces in this file name - bash: spaces: command not found
+cat "spaces in this filename" - works and gives below pass
 
-Password Used: 
+User ssh bandit3@bandit.labs.overthewire.org -p 2220
+
+Password Used:UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK 
+
+To to use files with spaces you can either use the escape character or youse the double quotes. \ is called escape character, used to not expansion of space, so now bash read the space as part of file name.
 
 Google Refernece:
 To to use files with spaces you can either use the escape character or youse the double quotes. \ is called escape character, used to not expansion of space, so now bash read the space as part of file name.
@@ -71,11 +84,27 @@ To to use files with spaces you can either use the escape character or youse the
 
 			Level 3-4
 
-Directions:
+Directions: password for the next level is stored in a hidden file in the inhere directory.
 
-Command: 
+Command: ls- shows in here 
+cat inhere - says its a directory
+cd inhere
+find - ./- hidden 
+got stuck and it gave me end so I restarted w creds and tried 
+cat inhere
+cat inhere "hidden" none worked
+then I used :
+ls -la inhere and it brought up some permissions info
+it also shows a .hidden
 
-Password Used: 
+from here:
+
+i added cat
+
+cat inhere/.hidden
+
+Password Used: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+
 
 --------------------------------
 
