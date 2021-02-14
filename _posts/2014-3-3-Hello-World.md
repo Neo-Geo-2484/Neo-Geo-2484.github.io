@@ -11,7 +11,7 @@ Platform Used : Oracle VM Virtual Box Running Kali
 
 Summary:
 
-This is was a challenging, but fun assingment. I did my best to follow OTW directions, reasearch and use the commands they suggested. I did use a walkthough at times. I did get stuck a lot having to restart the terminal. I know by the end of this semester my Lunix experience will be leaps and bounds better. Just with this project I am seeing it more clearly. Prior to this class I did a breif intro to power shell and even more breif tutorial on umbntu.
+This is was a challenging, but fun assingment. I did my best to follow OTW directions, reasearch and use the commands they suggested. I did use a walkthough at times. I did get stuck a lot having to restart the terminal. I know by the end of this semester my Lunix experience will be leaps and bounds better. Just with this project I am seeing it more clearly. Prior to this class I did a breif intro to power shell and even more breif tutorial on Ubuntu.
 
 
 Level 0:
