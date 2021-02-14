@@ -17,6 +17,10 @@ published: true
 
 2) Google.com
 
+Tools:
+
+1) Rot13.com
+
 
 **Platform Used :**
 
@@ -266,37 +270,53 @@ cat ls.data.txt
 
 strings data.txt | grep '=' 
 
-Password found: 
+
+ssh bandit10@bandit.labs.overthewire.org -p 2220
+
+Password found: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 
 
 
 **Level 10-11:**
 
-Directions:
+Directions:password for the next level is stored in the file data.txt, which contains base64 encoded data
 
-Command: 
+Command: ls
+ls 
+string data.txt | grep
+
+base64 -d data.txt
 
 Password found: 
+IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
 
 
 
 
 **Level 11-12:**
 
-Directions:
+Directions:password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positionsls
+Rot 13 encrypton:
 
-Command: 
 
-Password Used: 
+Command: ls - data.tx 
+cat data.tx - displays contents 
+
+using rot13.com copy contents from above and get password
+
+Password found: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
 
 
 
 **Level 12-13:**
 
-Directions:
+Directions: password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. For example: mkdir /tmp/myname123. Then copy the datafile using cp, and rename it using mv (read the manpages!)
 
 Command: 
+
+hexdump on wiki 
 
 Password Used: 
 
