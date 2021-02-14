@@ -314,40 +314,102 @@ Password found: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
 Directions: password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. For example: mkdir /tmp/myname123. Then copy the datafile using cp, and rename it using mv (read the manpages!)
 
-Command: 
+Command: ls - data.txt
+cat data.txt - large amountof text 
+
+mkdir /tmp/neogro - unable to create
+
+mkdir -v /tmp/jeff123 - created 
+
+xxd -r data.txt /tmp/jeff123/data.txt
+cd /tmp/jeff123
+ls
+
+file new 
+
+bzip2 -d new 
+
+ls
+
+
+zcat new.out  > newer
+
+tar-xvf newer
+file data5.bin
+
+-xvf data5.bin
+file date.bin
+bzip -d data6.bin
+ls
+file data6.bin.out
+tar -xvf data6.bin.out
+
+file data8.bin
+zcat data8.bin > newest
+file newest
+cat newest 
+
+cp data.txt /tmp/jeff123
+
+mv /tmp/jeff123/data.txt /tmp/jeff123/datacopy.txt
+
+cat /tmp/jeff123/datacopy.txt - non human jibberish populated 
+
+/temp/jeff123$ cat data8 
 
 hexdump on wiki 
 
-Password Used: 
+Password Used: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL ( had to look it up ) 
 
 
 
 
 **Level 13-14:**
 
-Directions:
+Directions:The password for the next level is stored in /etc/bandit_pass/bandit14 and can only be read by user bandit14. For this level, you don’t get the next password, but you get a private SSH key that can be used to log into the next level. Note: localhost is a hostname that refers to the machine you are working o
 
-Command: 
+Command: ls - sshkey.private 
+cat sshkey.private - populated a lrage priavte key 
 
-Password Used: 
+ssh -i sshkey.private bandit14@localhost 
 
+type yes
+
+copied " /etc/bandit_pass/bandit14" 
+
+cat /etc/bandit_pass/bandit14 - populated password
+
+Password Found:4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+-clear-
 
 
 
 **Level 14-15:**
 
-Directions:
+Directions:The password for the next level can be retrieved by submitting the password of the current level to port 30000 on localhost.
 
 Command: 
 
-Password Used: 
+nc - added a cmd line:
+nc - failed 
+
+nc localhost 30000
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+
+
+Password for bandit15 found: BfMYroe26WYalil77FoDi9qh59eK5xNr
+
 
 
 
 
 **Level 15-16**
 
-Directions:
+Directions:The password for the next level can be retrieved by submitting the password of the current level to port 30001 on localhost using SSL encryption.
+
+Helpful note: Getting “HEARTBEATING” and “Read R BLOCK”? Use -ign_eof and read the “CONNECTED COMMANDS” section in the manpage. Next to ‘R’ and ‘Q’, the ‘B’ command also works in this version of that command…
 
 Command: 
 
