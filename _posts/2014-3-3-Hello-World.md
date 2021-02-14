@@ -29,7 +29,7 @@ Tools:
 
 **Summary:**
 
-This is was a challenging, but fun assingment. I did my best to follow OTW directions, reasearch and use the commands they suggested. I did use a walkthough at times. I did get stuck a lot having to restart the terminal. I know by the end of this semester my Lunix experience will be leaps and bounds better. Just with this project I am seeing it more clearly. Prior to this class I did a breif intro to power shell and even more breif tutorial on Ubuntu.
+This is was a challenging, but fun assingment. I did my best to follow OTW directions, reasearch and use the commands they suggested. I did use a walkthough at times. I did get stuck a lot having to restart the terminal. Lv 12-13 most most challenging with the hexdum and using the ROT13 cypher was my most enjoyable level. 
 
 
 
@@ -359,7 +359,7 @@ cat /tmp/jeff123/datacopy.txt - non human jibberish populated
 
 hexdump on wiki 
 
-Password Used: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL ( had to look it up ) 
+Password Used: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL ( had to look up the walkthrough and use pass ) 
 
 
 
@@ -413,11 +413,14 @@ Helpful note: Getting “HEARTBEATING” and “Read R BLOCK”? Use -ign_eof an
 
 Command: openssl s_client -conect localhost BfMYroe26WYalil77FoDi9qh59eK5xNr
 
-openssl s_client -conect localhost30000 BfMYroe26WYalil77FoDi9qh59eK5xN
+openssl s_client -conect localhost30000 BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+openssl s_client -connect localhost:30001
+
+BfMYroe26WYalil77FoDi9qh59eK5xNr
 
 
-
-Password found: 
+Password found: cluFn7wTiGryunymYOu4RcffSxQluehd
 
 
 
@@ -425,143 +428,119 @@ Password found:
 
 **Level 16-17**
 
-Directions:
+Directions:The credentials for the next level can be retrieved by submitting the password of the current level to a port on localhost in the range 31000 to 32000. First find out which of these ports have a server listening on them. Then find out which of those speak SSL and which don’t. There is only 1 server that will give the next credentials, the others will simply send back to you whatever you send to it.
 
-Password found: 
 
+Command: namp -sv localhost -p 31000-32000 command not found 
 
 
+ls
+nmap localhost
+vi sshkey.private
+namp -sV localhost -p 31000-32000 command not found
+nmap local host populated some info
+nmap loacalhost 31000-32000- populated more into 
 
-**Level 17-18**
+openssl s_connect -connect localhost:31790 - invalid
 
-Directions:
+openssl s_connect -connect localhost:997 invalid 
 
-Password found: 
+openssl s_client -connect localhost:31790-
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: A799E79F6641C6C289CB25186EB51043154049AB0006BF59A9588B0BB2A21932
+    Session-ID-ctx: 
+    Master-Key: 53F171B146C297F1E70B8F2F9E54E94EEE68D1710963C1806F0737FEB8D54494963BFFB80E98382A78537491D8AAF6AC
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 27 9a 97 c2 54 b0 3e e8-41 f1 14 05 fd 55 85 a7   '...T.>.A....U..
+    0010 - 55 1d eb 5b 9d dc 27 c2-33 ff e5 c0 21 11 15 68   U..[..'.3...!..h
+    0020 - 8a 9f 13 1c 44 c7 43 36-dc f2 f5 02 64 ea 37 b7   ....D.C6....d.7.
+    0030 - 9d 7a ca d1 68 7c 4c cd-cd 60 b0 28 76 be 8d a6   .z..h|L..`.(v...
+    0040 - 27 db 15 8b 1d 6d d6 1f-0f 65 6c a6 01 7a 86 92   '....m...el..z..
+    0050 - f2 96 2e ed 6f b4 ab 5b-31 40 0e b2 1c 2f 94 17   ....o..[1@.../..
+    0060 - 6d 1a e4 a5 fb 20 0a c5-02 ba a4 11 21 ed b9 88   m.... ......!...
+    0070 - e3 0a 25 ea 79 dc 87 ff-6e e8 09 2e 21 74 98 b3   ..%.y...n...!t..
+    0080 - 0e 6a b4 fa f0 b4 dc 33-15 8c fe 38 18 6a 4e b5   .j.....3...8.jN.
+    0090 - 5e 3c ea 82 66 97 f6 58-01 c4 ba b3 2a cd a2 48   ^<..f..X....*..H
 
 
 
+Correct!
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
 
 
-**Level 18-19**
 
-Directions:
+ 
 
-Password found: 
+**I attempted to try and understand this, but it got deep and I stopped here to focus on chapter 1 quiz** 
 
 
 
 
 
 
-**Level 19-20** 
+Lv 0 - Bandit0
 
-Directions:
+Lv 1 - boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
-Password found: 
+Lv 2 - CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 
+Lv 3 - UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 
-**Level 19-20** 
+Lv 4- pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
-Directions:
+Lv 5- koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
-Password found: 
+Lv 6  - DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
+Lv 7 - HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
-**Level 20-21** 
+Lv 8- cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 
-Directions:
+Lv 9 - UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
-Password found: 
+Lv 10 - truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
 
+LV 11 - IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
 
-**Level 21-22** 
+Lv 12 - 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
-Directions:
+lv 13 - 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
-Password found: 
+Lv 14 - 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
 
+Lv 15 - BfMYroe26WYalil77FoDi9qh59eK5xNr
 
-**Level 22-23** 
-
-Directions:
-
-Password found: 
-
-
-**Level 23-24** 
-
-Directions:
-
-Password found: 
-
-
-**Level 24-25** 
-
-Directions:
-
-Password found: 
-
-
-**Level 25-26** 
-
-Directions:
-
-Password found: 
-
-
-**Level 26-27** 
-
-Directions:
-
-Password found: 
-
-
-**Level 27-28** 
-
-Directions:
-
-Password found: 
-
-
-**Level 28-29** 
-
-Directions:
-
-Password found: 
-
-
-**Level 29-30** 
-
-Directions:
-
-Password found: 
-
-
-**Level 30-31** 
-
-Directions:
-
-Password found: 
-
-
-**Level 31-32** 
-
-Directions:
-
-Password found: 
-
-
-**Level 32-33** 
-
-Directions:
-
-Password found: 
-
-
-**Level 33-34** 
-
-Directions:
-
-Password found: 
-
+Lv16- cluFn7wTiGryunymYOu4RcffSxQluehd
 
