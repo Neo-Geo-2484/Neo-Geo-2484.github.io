@@ -101,7 +101,7 @@ from here:
 
 i added cat
 
-cat inhere/.hidden
+cat inhere/.hidden - reveals pass
 
 Password Used: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
