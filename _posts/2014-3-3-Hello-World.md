@@ -105,29 +105,9 @@ cat inhere/.hidden - reveals pass
 Password Used: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 
---------------------------------
 
-			Level 4-5
 
-Directions:
-
-Command: 
-
-Password Used: 
-
---------------------------------
-
-			Level 5-6
-
-Directions:
-
-Command: 
-
-Password Used: 
-
---------------------------------
-
-			Level 6-7
+Level 4-5
 
 Directions:
 
@@ -136,19 +116,8 @@ Command:
 Password Used: 
 
 
---------------------------------
 
-			Level 7-8
-
-Directions:
-
-Command: 
-
-Password Used: 
-
---------------------------------
-
-			Level 8-9
+Level 5-6
 
 Directions:
 
@@ -156,19 +125,9 @@ Command:
 
 Password Used: 
 
---------------------------------
 
-			Level 9-10
 
-Directions:
-
-Command: 
-
-Password Used: 
-
---------------------------------
-
-			Level 10-11
+Level 6-7
 
 Directions:
 
@@ -176,19 +135,10 @@ Command:
 
 Password Used: 
 
---------------------------------
 
-			Level 11-12
 
-Directions:
 
-Command: 
-
-Password Used: 
-
---------------------------------
-
-			Level 12-13
+Level 7-8
 
 Directions:
 
@@ -196,19 +146,9 @@ Command:
 
 Password Used: 
 
---------------------------------
 
-			Level 13-14
 
-Directions:
-
-Command: 
-
-Password Used: 
-
---------------------------------
-
-			Level 14-15
+Level 8-9
 
 Directions:
 
@@ -216,9 +156,10 @@ Command:
 
 Password Used: 
 
---------------------------------
 
-			Level 15-16
+
+
+Level 9-10
 
 Directions:
 
@@ -226,33 +167,106 @@ Command:
 
 Password Used: 
 
---------------------------------
 
-			Level 16-17
+
+Level 10-11
+
+Directions:
+
+Command: 
+
+Password Used: 
+
+
+
+
+Level 11-12
+
+Directions:
+
+Command: 
+
+Password Used: 
+
+
+
+
+Level 12-13
+
+Directions:
+
+Command: 
+
+Password Used: 
+
+
+
+
+Level 13-14
+
+Directions:
+
+Command: 
+
+Password Used: 
+
+
+
+
+Level 14-15
+
+Directions:
+
+Command: 
+
+Password Used: 
+
+
+
+
+Level 15-16
+
+Directions:
+
+Command: 
+
+Password Used: 
+
+
+
+
+
+Level 16-17
 
 Directions:
 
 Password Used: 
 
---------------------------------
 
-			Level 17-18
 
-Directions:
 
-Password Used: 
-
---------------------------------
-
-			Level 18-19
+Level 17-18
 
 Directions:
 
 Password Used: 
 
---------------------------------
 
-			Level 19-20 
+
+
+
+Level 18-19
+
+Directions:
+
+Password Used: 
+
+
+
+
+
+
+Level 19-20 
 
 Directions:
 
