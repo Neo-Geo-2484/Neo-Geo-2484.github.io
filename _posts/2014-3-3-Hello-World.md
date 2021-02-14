@@ -58,8 +58,8 @@ google Refrence:
 on use of - 
 What is dashed filename?
 Usage of dash (-) in place of a filename
-
 For a command, if using - as an argument in place of a file name will mean STDIN or STDOUT
+
 --------------------------------
 
 			Level 2-3
