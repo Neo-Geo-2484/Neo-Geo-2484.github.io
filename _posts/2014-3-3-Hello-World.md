@@ -36,7 +36,7 @@ cat readme - gives pass
 
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 
-Password Used: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+Password found: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
 Enjoy your stay ! bandit1 and pass worked
 
@@ -52,7 +52,7 @@ Directions: while loggin in as bandit1 find pass in file called - which is in ho
 Commands: less ./- brought up the pass below, but then I get stuck on (END) had to reopen terminal and input below creds, it works I am off to the next lv:
 
 user ssh bandit2@bandit.labs.overthewire.org -p 2220
-Password Used:CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+Password found:CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 
 
 google Refrence:
@@ -73,7 +73,7 @@ cat "spaces in this filename" - works and gives below pass
 
 User ssh bandit3@bandit.labs.overthewire.org -p 2220
 
-Password Used:UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK 
+Password found:UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK 
 
 To to use files with spaces you can either use the escape character or youse the double quotes. \ is called escape character, used to not expansion of space, so now bash read the space as part of file name.
 
@@ -103,28 +103,68 @@ i added cat
 
 cat inhere/.hidden - reveals pass
 
-Password Used: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+Password found: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 
 
 
 Level 4-5:
 
-Directions:
+Directions: password for the next level is stored in the only human-readable file in the inhere directory
 
-Command: 
+Commands: 
+ls - inhere
+cat inhere- directory 
+cat inhere-file 
+cat "inhere" 
+ls
+ls -la inhere
+cat- lost and had to restart terminal 
 
-Password Used: 
+cat inhere/ -file01 - invalid 
+cat inhere/ -file00 - invalid
+cat inhere/ -file06 - invalid
+cat inhere/ -file04 - invalid
+cat inhere/ -file07 - invalid
+cat-help - not found 
+file in;here; 00-07 - no directory 
+
+ls 
+cat inhere/-file07 - worked 
+
+
+
+"reset"
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+Password found: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
 
 
 
 Level 5-6:
 
-Directions:
+Directions:password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
 
-Command: 
+human-readable
+1033 bytes in size
+not executable
 
-Password Used: 
+Command: ls - inhere
+ls-la inhere - 21 files 
+maybehere folders 00-19
+
+using find 
+
+find -size 1033c - ./ inhere/maybehere 07/.file2
+cat inhere/maybehere 07/.file2 - no directory 
+./ inhere/maybehere07/.file2- gives pass
+
+
+
+Password found: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
 
 
 
