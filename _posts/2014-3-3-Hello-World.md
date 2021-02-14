@@ -77,7 +77,7 @@ For a command, if using - as an argument in place of a file name will mean STDIN
 
 
 
-Level 2-3:
+**Level 2-3:**
 
 Directions: password for the next level is stored in a file called spaces in this filename located in the home directory
 
@@ -96,7 +96,7 @@ To to use files with spaces you can either use the escape character or youse the
 
 
 
-Level 3-4:
+**Level 3-4:**
 
 Directions: password for the next level is stored in a hidden file in the inhere directory.
 
@@ -124,7 +124,7 @@ Password found: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 
 
-Level 4-5:
+**Level 4-5:**
 
 Directions: password for the next level is stored in the only human-readable file in the inhere directory
 
@@ -157,7 +157,7 @@ Password found: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
 
 
-Level 5-6:
+**Level 5-6:**
 
 Directions:password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
 
@@ -182,7 +182,7 @@ Password found: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
 
 
-Level 6-7:
+**Level 6-7:**
 
 Directions:password for the next level is stored somewhere on the server and has all of the following properties: 
 
@@ -212,7 +212,7 @@ Password found: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
 
 
-Level 7-8:
+**Level 7-8:**
 
 Directions:password for the next level is stored in the file data.txt next to the word millionth
 
@@ -232,7 +232,7 @@ Password found: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 
 
 
-Level 8-9:
+**Level 8-9:**
 
 Directions:The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
 
@@ -256,7 +256,7 @@ Password found: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
 
 
-Level 9-10:
+**Level 9-10:**
 
 Directions:password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 
@@ -270,7 +270,7 @@ Password found:
 
 
 
-Level 10-11:
+**Level 10-11:**
 
 Directions:
 
@@ -281,7 +281,7 @@ Password found:
 
 
 
-Level 11-12:
+**Level 11-12:**
 
 Directions:
 
@@ -292,7 +292,7 @@ Password Used:
 
 
 
-Level 12-13:
+**Level 12-13:**
 
 Directions:
 
@@ -303,7 +303,7 @@ Password Used:
 
 
 
-Level 13-14:
+**Level 13-14:**
 
 Directions:
 
@@ -314,7 +314,7 @@ Password Used:
 
 
 
-Level 14-15:
+**Level 14-15:**
 
 Directions:
 
@@ -325,7 +325,7 @@ Password Used:
 
 
 
-Level 15-16
+**Level 15-16**
 
 Directions:
 
@@ -337,7 +337,7 @@ Password Used:
 
 
 
-Level 16-17
+**Level 16-17**
 
 Directions:
 
@@ -346,17 +346,7 @@ Password Used:
 
 
 
-Level 17-18
-
-Directions:
-
-Password Used: 
-
-
-
-
-
-Level 18-19
+**Level 17-18**
 
 Directions:
 
@@ -366,8 +356,18 @@ Password Used:
 
 
 
+**Level 18-19**
 
-Level 19-20 
+Directions:
+
+Password Used: 
+
+
+
+
+
+
+**Level 19-20** 
 
 Directions:
 
