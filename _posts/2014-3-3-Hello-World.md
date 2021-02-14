@@ -204,7 +204,7 @@ Password found: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
 Level 7-8:
 
-Directions:
+Directions:password for the next level is stored in the file data.txt next to the word millionth
 
 Command: 
 
