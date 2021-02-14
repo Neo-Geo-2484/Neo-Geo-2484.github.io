@@ -206,19 +206,42 @@ Level 7-8:
 
 Directions:password for the next level is stored in the file data.txt next to the word millionth
 
-Command: 
+Command: grep data.txt
+grep millionth
+grep
+grep millionth /data.txt
+ls
 
-Password found: 
+cat data.txt | grep -i millionth
+
+
+
+
+ssh bandit8@bandit.labs.overthewire.org -p 2220
+Password found: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 
 
 
 Level 8-9:
 
-Directions:
+Directions:The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
 
-Command: 
+Command: grep data.txt  - had to restart terminal 
 
-Password found: 
+ls
+
+cat eror had to re start terminal
+
+cat data.txt - huge amount of text
+
+sort data.txt
+
+sort data.txt | uniq -u
+
+
+
+Password found: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
 
 
 
@@ -227,7 +250,9 @@ Level 9-10:
 
 Directions:
 
-Command: 
+Command: ls data.txt
+
+cat at
 
 Password found: 
 
