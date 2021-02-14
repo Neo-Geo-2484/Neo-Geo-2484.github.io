@@ -43,7 +43,7 @@ Enjoy your stay ! bandit1 and pass worked
 
 
 
-			Level 1-2
+Level 1-2
 
 Directions: while loggin in as bandit1 find pass in file called - which is in home directory. cat, ls , cat - do not work.
 
@@ -62,7 +62,7 @@ For a command, if using - as an argument in place of a file name will mean STDIN
 
 
 
-			Level 2-3
+Level 2-3
 
 Directions: password for the next level is stored in a file called spaces in this filename located in the home directory
 
@@ -80,9 +80,8 @@ Google Refernece:
 To to use files with spaces you can either use the escape character or youse the double quotes. \ is called escape character, used to not expansion of space, so now bash read the space as part of file name.
 
 
---------------------------------
 
-			Level 3-4
+Level 3-4
 
 Directions: password for the next level is stored in a hidden file in the inhere directory.
 
