@@ -63,7 +63,7 @@ For a command, if using - as an argument in place of a file name will mean STDIN
 
 
 
-Level 2-3
+Level 2-3:
 
 Directions: password for the next level is stored in a file called spaces in this filename located in the home directory
 
@@ -82,7 +82,7 @@ To to use files with spaces you can either use the escape character or youse the
 
 
 
-Level 3-4
+Level 3-4:
 
 Directions: password for the next level is stored in a hidden file in the inhere directory.
 
@@ -108,7 +108,7 @@ Password Used: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 
 
-Level 4-5
+Level 4-5:
 
 Directions:
 
@@ -118,7 +118,7 @@ Password Used:
 
 
 
-Level 5-6
+Level 5-6:
 
 Directions:
 
@@ -128,28 +128,7 @@ Password Used:
 
 
 
-Level 6-7
-
-Directions:
-
-Command: 
-
-Password Used: 
-
-
-
-
-Level 7-8
-
-Directions:
-
-Command: 
-
-Password Used: 
-
-
-
-Level 8-9
+Level 6-7:
 
 Directions:
 
@@ -160,7 +139,7 @@ Password Used:
 
 
 
-Level 9-10
+Level 7-8:
 
 Directions:
 
@@ -170,18 +149,7 @@ Password Used:
 
 
 
-Level 10-11
-
-Directions:
-
-Command: 
-
-Password Used: 
-
-
-
-
-Level 11-12
+Level 8-9:
 
 Directions:
 
@@ -192,7 +160,17 @@ Password Used:
 
 
 
-Level 12-13
+Level 9-10:
+
+Directions:
+
+Command: 
+
+Password Used: 
+
+
+
+Level 10-11:
 
 Directions:
 
@@ -203,7 +181,7 @@ Password Used:
 
 
 
-Level 13-14
+Level 11-12:
 
 Directions:
 
@@ -214,7 +192,29 @@ Password Used:
 
 
 
-Level 14-15
+Level 12-13:
+
+Directions:
+
+Command: 
+
+Password Used: 
+
+
+
+
+Level 13-14:
+
+Directions:
+
+Command: 
+
+Password Used: 
+
+
+
+
+Level 14-15:
 
 Directions:
 
