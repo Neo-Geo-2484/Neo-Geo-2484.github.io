@@ -18,7 +18,9 @@ Walkthrough help:
 2) Google.com
 
 
-Platform Used : Oracle VM Virtual Box Running Kali 
+Platform Used : 
+
+1) Oracle VM Virtual Box Running Kali 
 
 
 Summary:
