@@ -23,9 +23,9 @@ Command: ssh bandit0@bandit.labs.overthewire.org -p 2220
 Password Used:bandit0
 
 
+----        
         
-        
-Level o-1
+Level 0-1
 
 Directions:find the password for lv 2 in the readme file, found in the home directory 
 
@@ -38,10 +38,10 @@ ssh bandit1@bandit.labs.overthewire.org -p 2220
 Password Used: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
 
-
 Enjoy your stay ! bandit1 and pass worked
 
 
+---
 
 Level 1-2
 
