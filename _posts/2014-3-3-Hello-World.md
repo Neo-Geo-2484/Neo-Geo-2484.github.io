@@ -4,32 +4,32 @@ title: Week 3 OTW Homework
 published: true
 ---
 
-Reference : 
+**Reference :** 
 
 1) https://overthewire.org/wargames/bandit/
 
 2) Google.com
 
 
-Walkthrough help:
+**Walkthrough help:**
 
 1) https://www.youtube.com/watch?v=HR_0vVGtOYE
 
 2) Google.com
 
 
-Platform Used : 
+**Platform Used :**
 
 1) Oracle VM Virtual Box Running Kali 
 
 
-Summary:
+**Summary:**
 
 This is was a challenging, but fun assingment. I did my best to follow OTW directions, reasearch and use the commands they suggested. I did use a walkthough at times. I did get stuck a lot having to restart the terminal. I know by the end of this semester my Lunix experience will be leaps and bounds better. Just with this project I am seeing it more clearly. Prior to this class I did a breif intro to power shell and even more breif tutorial on Ubuntu.
 
 
 
-Level 0:
+**Level 0:**
             
 Directions:Log in using SSH on port 2220 username bandit0, 
 
@@ -40,7 +40,7 @@ Password Used:bandit0
 
 
         
-Level 0-1:
+**Level 0-1:**
 
 Directions:find the password for lv 2 in the readme file, found in the home directory 
 
@@ -58,7 +58,7 @@ Enjoy your stay ! bandit1 and pass worked
 
 
 
-Level 1-2:
+**Level 1-2:**
 
 Directions: while loggin in as bandit1 find pass in file called - which is in home directory. cat, ls , cat - do not work.
 
