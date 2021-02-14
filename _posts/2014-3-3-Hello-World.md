@@ -417,7 +417,7 @@ openssl s_client -conect localhost30000 BfMYroe26WYalil77FoDi9qh59eK5xN
 
 
 
-Password Used: 
+Password found: 
 
 
 
@@ -427,7 +427,7 @@ Password Used:
 
 Directions:
 
-Password Used: 
+Password found: 
 
 
 
@@ -436,7 +436,7 @@ Password Used:
 
 Directions:
 
-Password Used: 
+Password found: 
 
 
 
@@ -446,7 +446,7 @@ Password Used:
 
 Directions:
 
-Password Used: 
+Password found: 
 
 
 
@@ -457,6 +457,111 @@ Password Used:
 
 Directions:
 
-Password Used: 
+Password found: 
+
+
+**Level 19-20** 
+
+Directions:
+
+Password found: 
+
+
+**Level 20-21** 
+
+Directions:
+
+Password found: 
+
+
+**Level 21-22** 
+
+Directions:
+
+Password found: 
+
+
+**Level 22-23** 
+
+Directions:
+
+Password found: 
+
+
+**Level 23-24** 
+
+Directions:
+
+Password found: 
+
+
+**Level 24-25** 
+
+Directions:
+
+Password found: 
+
+
+**Level 25-26** 
+
+Directions:
+
+Password found: 
+
+
+**Level 26-27** 
+
+Directions:
+
+Password found: 
+
+
+**Level 27-28** 
+
+Directions:
+
+Password found: 
+
+
+**Level 28-29** 
+
+Directions:
+
+Password found: 
+
+
+**Level 29-30** 
+
+Directions:
+
+Password found: 
+
+
+**Level 30-31** 
+
+Directions:
+
+Password found: 
+
+
+**Level 31-32** 
+
+Directions:
+
+Password found: 
+
+
+**Level 32-33** 
+
+Directions:
+
+Password found: 
+
+
+**Level 33-34** 
+
+Directions:
+
+Password found: 
 
 
