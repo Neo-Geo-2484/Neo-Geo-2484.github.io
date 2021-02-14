@@ -22,7 +22,7 @@ Command: ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 Password Used:bandit0
 
----------------------------------
+
         
         
         	Level o-1
@@ -41,7 +41,7 @@ Password Used: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
 Enjoy your stay ! bandit1 and pass worked
 
---------------------------------
+
 
 			Level 1-2
 
@@ -60,7 +60,7 @@ What is dashed filename?
 Usage of dash (-) in place of a filename
 For a command, if using - as an argument in place of a file name will mean STDIN or STDOUT
 
---------------------------------
+
 
 			Level 2-3
 
