@@ -5,6 +5,10 @@ published: true
 ---
 
 Reference : https://overthewire.org/wargames/bandit/
+https://www.youtube.com/watch?v=HR_0vVGtOYE
+Google.com
+
+
 
 Platform Used : Oracle VM Virtual Box Running Kali 
 
@@ -170,15 +174,30 @@ Password found: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
 Level 6-7:
 
-Directions:password for the next level is stored somewhere on the server and has all of the following properties:
+Directions:password for the next level is stored somewhere on the server and has all of the following properties: 
 
 owned by user bandit7
 owned by group bandit6
 33 bytes in size
 
 Command: 
+ls
+find
+-size
+and 33b
+grep bandit7 - error and i need to log back in 
 
-Password found: 
+find / - this listed 100= entrys and I dont think that was right 
+
+find / -size 33c -user bandit7 -group bandit6 
+
+this produced another log found alot of premisson denied. 1 log shows path and has password after so lets use it :
+
+cat /var/lib/dpkg/info/bandit7.password
+
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+Password found: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
 
 
 
@@ -189,7 +208,7 @@ Directions:
 
 Command: 
 
-Password Used: 
+Password found: 
 
 
 
@@ -199,7 +218,7 @@ Directions:
 
 Command: 
 
-Password Used: 
+Password found: 
 
 
 
@@ -210,7 +229,7 @@ Directions:
 
 Command: 
 
-Password Used: 
+Password found: 
 
 
 
@@ -220,7 +239,7 @@ Directions:
 
 Command: 
 
-Password Used: 
+Password found: 
 
 
 
