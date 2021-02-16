@@ -25,18 +25,21 @@ published: true
 
 ### **Walkthrough's Used:**
 
-1)
+1) Youtube link...
 
-2) 
+2) Google Search's
 
 Tools:
+Kali tools?
 
 
 ### **Platform Used :**
 
-1) VM on TryHackMe.com via Google Chrome 
+1) Kali VM on TryHackMe.com via Google Chrome 
 
-##  Rooms Assinged
+
+
+##  Links / Tasks Assinged this week
 
 ### Welcome
 https://tryhackme.com/room/welcome
@@ -50,7 +53,7 @@ https://tryhackme.com/room/openvpn
 
 
 
-## :Canvas Link 1 Documentation:
+## :Link 1 Documentation:
 ### Welcome
 https://tryhackme.com/room/welcome
 Room is Private - However on the Dashboard there are 3 Welcome Tasks- 
@@ -59,7 +62,7 @@ Room is Private - However on the Dashboard there are 3 Welcome Tasks-
  3) Complete a room
 
 
-## :Canvas Link 2 Documentation:
+## :Link 2 Documentation:
 ### Tutorial
 https://tryhackme.com/room/tutorial
 
@@ -69,10 +72,10 @@ Open Machine Info - Copy IP and paste into Firefox
 
 
 
-## :Canvas Link 3 Documentation:
+## :Link 3 Documentation:
 ### OpenVpn
 
-OpenAttak Machine 
+OpenAttack Machine 
 
 Terminal: 
 
