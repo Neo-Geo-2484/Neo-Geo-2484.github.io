@@ -85,6 +85,6 @@ OpenVpn
 
 
 
-## Archived LABs:
+## Archived LABS:
 
 [Week 3 Lab Archive](https://github.com/Neo-Geo-2484/Butte-CSCI-18/commit/9d008dd21d610f25bfd1fa2a816985b4883da1d1)
