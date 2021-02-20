@@ -41,9 +41,13 @@ https://tryhackme.com/room/openvpn
 ### Welcome
 https://tryhackme.com/room/welcome
 Room is Private - However on the Dashboard there are 3 Welcome Tasks- 
- 1) Join a room
- 2) Connect to our network
- 3) Complete a room
+What are rooms ?
+deploy machine and go to ip address in firefox
+find flag 
+flag{connection_verified}
+check out other pathways and rooms within THM. 
+
+
 
 
 ## :Link 2 Documentation:
@@ -53,6 +57,10 @@ https://tryhackme.com/room/tutorial
 Deploy My first Machine 
 Open Machine Info - Copy IP and paste into Firefox 
 10.10.38.0
+Deploy attackbox and go to IP above to find flag
+flag{connection_verified}
+
+more next step info
 
 
 
@@ -79,6 +87,4 @@ Complete room.
 
 
 
-## Archived LABS:
 
-[Week 3 Lab Archive](https://github.com/Neo-Geo-2484/Butte-CSCI-18/commit/9d008dd21d610f25bfd1fa2a816985b4883da1d1)
