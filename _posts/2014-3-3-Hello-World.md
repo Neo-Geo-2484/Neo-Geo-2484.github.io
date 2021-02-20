@@ -9,12 +9,6 @@ published: true
 ### Instructor: Edward Miro 
 
 
-
-
-
-
-**##  Week 4 Lab :**
-
 ### **Public Profile for THM**
 
 [Try Hack Me Public Profile link :](https://tryhackme.com/p/neogeo2484)
@@ -26,17 +20,14 @@ published: true
 
 
 
-##  Links / Tasks Assinged this week
 
-### Welcome
-https://tryhackme.com/room/welcome
 
-### Tutorial
-https://tryhackme.com/room/tutorial
 
-### Open Vpn
-https://tryhackme.com/room/openvpn
 
+
+
+
+**##  Week 4 Lab :**
 
 
 
