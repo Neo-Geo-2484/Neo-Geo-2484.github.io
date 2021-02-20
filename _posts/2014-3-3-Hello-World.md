@@ -32,7 +32,7 @@ published: true
 
 
 ## :Link 1 Documentation:
-### Welcome
+### Room : Welcome
 https://tryhackme.com/room/welcome
 Room is Private - However on the Dashboard there are 3 Welcome Tasks- 
 What are rooms ?
@@ -45,7 +45,7 @@ check out other pathways and rooms within THM.
 
 
 ## :Link 2 Documentation:
-### Tutorial
+### Room : Tutorial
 https://tryhackme.com/room/tutorial
 
 Deploy My first Machine 
@@ -59,7 +59,7 @@ more next step info
 
 
 ## :Link 3 Documentation:
-### OpenVpn
+### Room : OpenVpn
 
 
 Download your VPN configuration file
