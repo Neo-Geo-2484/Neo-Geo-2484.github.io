@@ -10,9 +10,9 @@ published: true
 
 
 
-### Week 4 Lab :
+##  Week 4 Lab :
 
-**Public Profile for THM**
+### **Public Profile for THM**
 
 [Try Hack Me Public Profile link :](https://tryhackme.com/p/neogeo2484)
 
