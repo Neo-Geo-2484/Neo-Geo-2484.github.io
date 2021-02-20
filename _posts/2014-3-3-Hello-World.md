@@ -17,22 +17,6 @@ published: true
 [Try Hack Me Public Profile link :](https://tryhackme.com/p/neogeo2484)
 
 
-
-### **References:** 
-
-1) https://tryhackme.com 
-
-
-### **Walkthrough's Used:**
-
-1) Youtube link...
-
-2) Google Search's
-
-Tools:
-Kali tools?
-
-
 ### **Platform Used :**
 
 1) Kali VM on TryHackMe.com via Google Chrome 
@@ -75,12 +59,22 @@ Open Machine Info - Copy IP and paste into Firefox
 ## :Link 3 Documentation:
 ### OpenVpn
 
-OpenAttack Machine 
 
-Terminal: 
+Download your VPN configuration file
 
-Sudo
-OpenVpn
+Run through all the different OS and how to access their VM on those OS or Run Open VPN-
+
+Open VPN GUI download
+
+Open and Run connect from local file 
+Find Ip address and connect  then verify connection on 
+Test connection by deploying machine and going to IP address listed to find the flag 
+
+Enter flag
+Flag{connection_verified}
+
+Complete room. 
+
 
 
 
