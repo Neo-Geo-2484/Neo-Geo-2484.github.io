@@ -6,7 +6,7 @@ published: true
 
 
 ## Jeff Hepburn - Lab Blog for CSCI - 18 @ Butte College
-
+### Instructor: Edward Miro 
 
 
 
