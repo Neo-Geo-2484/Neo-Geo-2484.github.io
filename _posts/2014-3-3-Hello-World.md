@@ -13,6 +13,8 @@ published: true
 
 [Try Hack Me Public Profile link :](https://tryhackme.com/p/neogeo2484)
 
+https://tryhackme.com/p/neogeo2484
+
 
 ### **Platform Used :**
 
