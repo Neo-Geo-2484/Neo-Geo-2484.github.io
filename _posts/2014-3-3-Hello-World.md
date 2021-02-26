@@ -77,10 +77,4 @@ Test connection by deploying machine and going to IP address listed to find the 
 Enter flag
 Flag{connection_verified}
 
-Complete room. 
-
-
-
-
-
-
+Complete room.
