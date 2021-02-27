@@ -7,10 +7,6 @@ published: true
 
 
 
-![]({{site.baseurl}}/_posts/5.2.2.3.PNG)!
-
-[_posts/5.2.2.3.PNG]({{site.baseurl}}/)
-
 
 
 ## Jeff Hepburn - Lab Blog for CSCI - 18 @ Butte College
