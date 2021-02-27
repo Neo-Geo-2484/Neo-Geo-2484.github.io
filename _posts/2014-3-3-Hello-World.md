@@ -6,6 +6,9 @@ published: true
 
 
 
+![Week 4 4.2.0.0.PNG]({{site.baseurl}}/_posts/Week 4 4.2.0.0.PNG)
+
+
 
 
 ## Jeff Hepburn - Lab Blog for CSCI - 18 @ Butte College
