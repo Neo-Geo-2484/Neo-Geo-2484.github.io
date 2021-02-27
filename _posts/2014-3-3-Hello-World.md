@@ -6,7 +6,7 @@ published: true
 
 
 
-![Week 4 4.2.0.0.PNG]({{site.baseurl}}/_posts/Week 4 4.2.0.0.PNG)
+![Week 4 4.2.0.0.PNG](/_posts/Week 4 4.2.0.0.PNG)
 
 
 
