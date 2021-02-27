@@ -21,9 +21,33 @@ https://tryhackme.com/p/neogeo2484
 1) Kali VM on TryHackMe.com via Google Chrome 
 
 **##  Week 5 Lab :**
-Room Blue 
 
-![5.2.2.3.PNG]({{site.baseurl}}/_posts/5.2.2.3.PNG)
+### Room Blue
+
+
+Task 1
+
+
+
+
+Task 2 
+
+
+
+
+Task 3
+
+
+
+
+Task 4 
+
+
+
+
+Task 5
+
+
 
 
 
