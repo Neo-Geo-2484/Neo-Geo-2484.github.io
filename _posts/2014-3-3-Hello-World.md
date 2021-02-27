@@ -25,7 +25,20 @@ https://tryhackme.com/p/neogeo2484
 ### Room Blue
 
 
-Task 1
+Task 1-Scan and learn what exploit this machine is vulnerable to. Please note that this machine does not respond to ping (ICMP) and may take a few minutes to boot up.
+
+## Question 1: Scan the machine: 
+
+### Commands and Process:****
+apt install nmap 
+nmap -Sv -SC--script vuln -oN blue.nmap 10.10.76.171
+
+less blue.nmap - Vulnerable MS12-020 Remote Desktop Protocol Denial of service IDss: CVE, CVE: 2012-0152 -medium , 2017-03-14 -High SMBV1 
+
+
+## Question 2 : 135 , 139 and 445 are 3 ports open under 1000 so 3 ports are open.
+
+## Question 3 :  what is it vulnerable to High risk is ms17-010
 
 
 
